@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.section-page{
+    background-image: url(./asset/IMG.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 90%;
+    height: 250px;
+    border-radius: 25px;
+    margin-top: 10%;
+    margin-left: 5%;
+    opacity: 2.6;
+
+}
+.slogan{
+    z-index: 2;
+    position:absolute;
+    top:35%;
+    left: 35%;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+}

@@ -1,0 +1,45 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    margin: 0px 0px;
+    flex-wrap: wrap;
+}
+
+
+.post {
+    position: relative;
+    display: flex;
+    width: 280px;
+    height: 255px;
+    margin: 100px;
+
+
+
+
+
+}
+
+
+.post-image {
+    display: flex;
+    width: 360px;
+    object-fit: cover;
+
+
+    border-radius: 10px;
+
+
+
+}
+
+.post-titre {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+
+
+
+    color: black;
+}

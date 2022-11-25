@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.navbar-page {
+    
+    width: 90%;
+    height: 68px;
+    
+    top: 40px;
+    display:flex; 
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.nav {
+
+    
+    width: 30%;
+    top: 25%;
+    bottom: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-aceuil {
+    height: 80px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+
+   
+    top: 25%;
+    bottom: 25%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    /* or 34px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #FF6060;
+}
+
+.nav-apropos {
+    height: 80px;
+    width: 200px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+
+    
+    
+    top: 25%;
+    bottom: 25%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    /* or 34px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+
+    color: #FF6060;
+}
+.logo{
+    margin-left: 10%;
+}

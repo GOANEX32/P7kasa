@@ -1,0 +1,45 @@
+.propos-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.propos-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.img-propos{
+    margin-top: 5%;
+    width: 80%;
+    border-radius: 25px;
+}
+.propos-contenu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    
+    height: 1024px;
+    width: 60%;
+}
+.accordion-title{
+    width: 100%;
+    background-color:#FF6060;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    
+
+}
+.accordion-content{
+    color: #FF6060;
+    background-color: #F7F7F7;
+}
