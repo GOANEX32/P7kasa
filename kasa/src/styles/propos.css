@@ -1,29 +1,33 @@
-.propos-page{
+.propos_page{
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
 
-.propos-section{
+.propos_section{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 300px;
+    width: 90%;
 }
 
 
 
-.img-propos{
+.propos_image{
     margin-top: 5%;
-    width: 80%;
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
     border-radius: 25px;
 }
-.propos-contenu{
+.propos_contenu{
     display: flex;
     flex-direction: column;
     margin-top: 5%;
     
-    height: 1024px;
+    height: 800px;
     width: 60%;
 }
 .accordion-title{
@@ -36,10 +40,13 @@
     height: 50px;
     font-weight: 500;
     font-size: 24px;
+    border-radius: 5px;
     
 
 }
 .accordion-content{
     color: #FF6060;
     background-color: #F7F7F7;
+    font-size:24px;
+    line-height: 142.6%;
 }

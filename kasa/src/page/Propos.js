@@ -1,4 +1,4 @@
-import kalen from "../styles/asset/kalen.png"
+import propos_image from "../styles/asset/propos_image.png"
 import Footer from "../components/footer";
 
 
@@ -34,12 +34,12 @@ const Propos = () => {
 
 
   return (
-    <div className="propos-page">
-      <div className="propos-section">
+    <div className="propos_page">
+      <div className="propos_section">
 
-        <img src={kalen} className="img-propos" />
+        <img src={propos_image} className="propos_image" />
       </div>
-      <div className="propos-contenu">
+      <div className="propos_contenu">
         
         {accordionData.map(({ title, content }) => (
           <Accordion title={title} content={content} />

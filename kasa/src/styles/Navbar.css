@@ -3,13 +3,17 @@
 
 .navbar-page {
     
-    width: 90%;
+    
     height: 68px;
     
     top: 40px;
     display:flex; 
     align-items: center;
+    justify-content: center;
     justify-content: space-between;
+    margin-top: 1%;
+    
+    width: 100%;
     
 
 }
@@ -17,16 +21,19 @@
 .nav {
 
     
-    width: 30%;
+    
     top: 25%;
     bottom: 25%;
+    width: 300px;
+    height: 100px;
     display: flex;
-    justify-content: space-evenly;
+    margin-right: 10%;
+    
 }
 
 .nav-aceuil {
     height: 80px;
-    width: 200px;
+    width: 150px;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -55,19 +62,14 @@
 
 .nav-apropos {
     height: 80px;
-    width: 200px;
+    width: 150px;
+    
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 500;
     line-height: 34px;
     letter-spacing: 0em;
     text-align: right;
-
-    
-    
-    top: 25%;
-    bottom: 25%;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -82,5 +84,8 @@
     color: #FF6060;
 }
 .logo{
+    display:  flex;
+    width: 280px;
+    height: 70px;
     margin-left: 10%;
 }

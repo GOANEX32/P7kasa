@@ -1,0 +1,118 @@
+.carrousel {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 500px;
+    margin-top: 5%;
+    width: 100%;
+
+
+
+}
+
+.carrousel_image {
+    width: 1400px;
+
+    height: 500px;
+    z-index: 0;
+    object-fit: cover;
+
+
+
+}
+
+.fleche {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    width: 1000px;
+    height: 250px;
+    position: absolute;
+
+
+}
+
+.fa-chevron-left {
+    font-size: 80px;
+
+
+}
+
+.fa-chevron-right {
+    font-size: 80px;
+
+
+}
+
+.box_left {
+    margin-left: 10%;
+}
+
+.box_right {
+    margin-right: 10%;
+}
+
+/*partie body presentation*/
+.main_fiche {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+
+
+}
+
+.partie1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.titre_logement {
+    font-size: 36px;
+    color: #FF6060;
+    font-family: 'Montserrat';
+}
+
+.lieux {
+    font-size: 18px;
+    color: #FF6060;
+    font-family: 'Montserrat';
+}
+
+.tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    margin-top: 2%;
+}
+
+.top_tags {
+    font-size: 12px;
+    background: #FF6060;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    flex-direction: row;
+}
+.host_photo{
+    border-radius: 50%;
+   
+}
+.host_nom{
+    color: #FF6060;
+    font-size: 18px;
+    font-family: 'Montserrat';
+  
+
+}
