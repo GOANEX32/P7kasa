@@ -5,7 +5,7 @@ const Footer= () => {
 
     return (
       <div className="footer">
-      <img src={imagefooter}  className="footer" alt="footerimage"></img>
+      <img src={imagefooter}  className="footer_image" alt="footerimage"></img>
       </div>
     );
   };

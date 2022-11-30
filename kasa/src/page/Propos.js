@@ -1,9 +1,6 @@
 import propos_image from "../styles/asset/propos_image.png"
 import Footer from "../components/footer";
-
-
-import React, { useState } from 'react'
-import Accordion from '../components/Accordion';
+import Accor from '../components/Accor';
 
 
 
@@ -37,12 +34,12 @@ const Propos = () => {
     <div className="propos_page">
       <div className="propos_section">
 
-        <img src={propos_image} className="propos_image" />
+        <img src={propos_image} className="propos_image" alt="principale page" />
       </div>
       <div className="propos_contenu">
         
         {accordionData.map(({ title, content }) => (
-          <Accordion title={title} content={content} />
+          <Accor title={title} content={content} />
         ))}
         
        

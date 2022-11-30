@@ -13,7 +13,7 @@
 }
 
 .carrousel_image {
-    width: 1400px;
+    width: 1300px;
 
     height: 500px;
     z-index: 0;
@@ -36,13 +36,17 @@
 }
 
 .fa-chevron-left {
-    font-size: 80px;
+    font-size: 100px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 
 }
 
 .fa-chevron-right {
-    font-size: 80px;
+    font-size: 100px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 
 }
@@ -62,7 +66,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 2%;
+     height: 500px;
 
 
 }
@@ -71,7 +75,7 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
-}
+   }
 
 .titre_logement {
     font-size: 36px;
@@ -116,3 +120,209 @@
   
 
 }
+.partie2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+    
+}
+.bottom-logement{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.accordion-item{
+    width: 500px;
+
+}
+.accordion-title{
+    background: #FF6060;
+border-radius: 10px;
+width: 582px;
+height: 52px;
+font-family: 'Montserrat';
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
+
+}
+.accordion-content{
+    
+border-radius: 10px;
+color: #FF6060;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+width: 582px;
+height: 250px;
+line-height: 142.6%;
+background-color: #F6F6F6;
+
+
+}
+
+
+@media screen and (max-width: 1300px) {
+    .carrousel_image {
+        width: 700px;
+    
+        height: 500px;
+        z-index: 0;
+        object-fit: cover;
+    
+    
+    
+    }
+    .accordion-title{
+        background: #FF6060;
+    border-radius: 10px;
+    width: 80%;
+    height: 52px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+    }
+    .accordion-item{
+        width: 100%;
+    
+    
+        
+    }
+    .accordion-content{
+    
+        border-radius: 10px;
+        color: #FF6060;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        width: 80%;
+        height: 250px;
+        line-height: 200.6%;
+        background-color: #F6F6F6;
+        
+        
+        }
+        .fleche {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 2;
+            width: 100%;
+            height: 250px;
+            position: absolute;
+        
+        
+        }
+  }
+
+  @media screen and (max-width: 700px) {
+    .carrousel_image {
+        width: 390px;
+        height: 400px;
+        z-index: 0;
+        object-fit: fill;
+    }
+    .tag{
+        width: 330px;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100px;
+    }
+    .bottom-logement{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .titre_logement {
+        font-size: 30px;
+        color: #FF6060;
+        font-family: 'Montserrat';
+    }
+    
+    .lieux {
+        font-size: 15px;
+        color: #FF6060;
+        font-family: 'Montserrat';
+    }
+    
+    .partie1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 80%;
+        height: 400px;
+       }
+       .accordion-content{
+    
+        border-radius: 10px;
+        color: #FF6060;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        width: 100%;
+        height: 150px;
+        line-height: 170.6%;
+        background-color: #F6F6F6;
+        
+        
+        }
+        .partie2{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 2%;
+            height: 400px;
+        }
+        .main_fiche {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+             height: 900px;
+        
+        
+        }
+        .carrousel {
+            height: 400px;
+        }
+        .accordion-item{
+            width: 100%;
+        }
+        .accordion-title{
+            width: 100%;
+        }
+    
+    
+   
+
+
+
+
+  }

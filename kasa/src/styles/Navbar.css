@@ -2,32 +2,23 @@
 
 
 .navbar-page {
-    
-    
     height: 68px;
-    
     top: 40px;
     display:flex; 
     align-items: center;
     justify-content: center;
     justify-content: space-between;
     margin-top: 1%;
-    
     width: 100%;
-    
-
 }
 
 .nav {
-
     
-    
-    top: 25%;
-    bottom: 25%;
     width: 300px;
     height: 100px;
     display: flex;
     margin-right: 10%;
+    
     
 }
 
@@ -40,8 +31,6 @@
     line-height: 34px;
     letter-spacing: 0em;
     text-align: right;
-
-   
     top: 25%;
     bottom: 25%;
 
@@ -80,7 +69,6 @@
     display: flex;
     align-items: flex-end;
     text-align: right;
-
     color: #FF6060;
 }
 .logo{
@@ -88,4 +76,42 @@
     width: 280px;
     height: 70px;
     margin-left: 10%;
+    
 }
+
+@media screen and (max-width: 700px) {
+    .navbar-page {
+    
+    
+        height: 68px;
+        
+        top: 70px;
+        display:flex; 
+        align-items: center;
+        justify-content: center;
+        
+        flex-direction: column;
+        margin-top: 12%;
+        margin-bottom: 10%;
+        
+        width: 100%;
+        
+    
+    }
+    .logo{
+        display:  flex;
+        width: 280px;
+        height: 70px;
+        margin-left: 10%;
+    }
+    .nav {
+    
+        width: 300px;
+        height: 100px;
+        display: flex;
+        margin-right: 0%;
+        
+        
+    }
+    }
+  

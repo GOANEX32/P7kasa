@@ -1,7 +1,25 @@
-.footer{
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  height: 150px;
+}
+
+.footer_image {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100px;
     width: 100%;
-    
+   
+}
+.footer_image {
+    height: 100%;
+    width: 100%;
+  }
 }
