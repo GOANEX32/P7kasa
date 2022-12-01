@@ -2,12 +2,6 @@ import { NavLink } from "react-router-dom";
 import logo from "../styles/asset/LOGO.png"
 
 
-
-
-
-
-
-
 const Navbar = () => {
   
 
@@ -25,9 +19,6 @@ const Navbar = () => {
            <h2>A propos</h2>
          </NavLink>
         </div> 
-
-        
-        
       </div>
     );
   };

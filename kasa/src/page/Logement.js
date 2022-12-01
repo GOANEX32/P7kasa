@@ -11,22 +11,18 @@ function Logement({ data }) {
   const { id } = useParams();
   const navigate = useNavigate();
   const logement = data.find((logement) => logement.id === id);
-  const nombre = logement.rating*1;
-  console.log(nombre);
 
   useEffect(() => {
     if (!logement) {
-      navigate("/404-notFound");
+      navigate("/PageNotFound");
     }
   }, [logement]);
-
-
 
   return (
 
     logement && (
       <>
-      <Navbar />
+        <Navbar />
         {<Carrousel pictures={logement.pictures} />}
 
 
@@ -42,20 +38,20 @@ function Logement({ data }) {
                 {logement.location}
               </div>
               <div className="tag">
-              {logement.tags.map((el) => (
-                <div className="top_tags">{el}</div>
-              ))}
+                {logement.tags.map((el) => (
+                  <div className="top_tags">{el}</div>
+                ))}
               </div>
 
 
             </div>
             <div className="host">
               <div className="host_nom">{logement.host.name}
-                <img src={logement.host.picture} className="host_photo" alt="portrait"/> 
-              </div>  
-              
+                <img src={logement.host.picture} className="host_photo" alt="portrait" />
+              </div>
+
               <div className="etoile">
-              {<Rating rating={logement.rating} />}
+                {<Rating rating={logement.rating} />}
               </div>
 
 
@@ -64,15 +60,15 @@ function Logement({ data }) {
           </div>
 
           <div className="partie2">
-          <div className="bottom-logement">
+            <div className="bottom-logement">
               {<Accordion title={"Description"} content={logement.description} />}
-              {<Accordion title={"Équipement"} content={logement.equipments}  />}
+              {<Accordion title={"Équipement"} content={logement.equipments} />}
             </div>
 
           </div>
 
         </main>
-        <Footer/>
+        <Footer />
 
 
 

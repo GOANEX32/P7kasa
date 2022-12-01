@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Carrousel(props) {
-  // console.log(props.pictures[1]);
+
   const [current, setCurrent] = useState(0);
   const length = props.pictures.length;
 

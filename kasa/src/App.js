@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import '../src/styles/All.css';
-import Navbar from "./components/Navbar";
 import Home from "./page/Home"
 import Propos from "./page/Propos"
 import data from "./data.json"
@@ -10,14 +9,14 @@ import PageNotFound from './page/PageNotFound';
 function App() {
   return (
     <BrowserRouter>
-            
-            <Routes>
-                <Route path="/" element={<Home/>} />
-                <Route path="/propos" element={<Propos/>} />
-                <Route path="/logement/:id" element={<Logement data={data} />} />
-                <Route path="*" element={<PageNotFound />} />
-            </Routes>
-        </BrowserRouter>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/propos" element={<Propos />} />
+        <Route path="/logement/:id" element={<Logement data={data} />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

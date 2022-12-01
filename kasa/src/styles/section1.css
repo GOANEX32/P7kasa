@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-.section-page{
-    
+
+.section-page {
+
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     width: 90%;
     height: 250px;
-    
     margin-top: 10%;
     margin-left: 5%;
     opacity: 2.6;
 
 }
-.slogan{
+
+.slogan {
     z-index: 2;
-    position:absolute;
+    position: absolute;
     top: 22%;
     left: 28%;
     right: 25%;
@@ -21,7 +22,7 @@
     font-family: 'Montserrat';
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color: white;
-    
+
 }
 
 @media screen and (max-width: 700px) {

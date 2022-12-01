@@ -28,14 +28,9 @@ const Propos = () => {
   },
 ]
   
-
-
-
-  return (
+return (
     <>
     <Navbar />
-    
-    
     <div className="propos_page">
       <div className="propos_section">
 
@@ -46,8 +41,6 @@ const Propos = () => {
         {accordionData.map(({ title, content }) => (
           <Accor title={title} content={content} />
         ))}
-        
-       
       </div>
       <Footer/>
     </div>
