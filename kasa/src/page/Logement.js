@@ -4,6 +4,7 @@ import Accordion from "../components/Accordion.js";
 import Carrousel from "../components/Courrousel.js";
 import Rating from "../components/Rating.js";
 import Footer from "../components/footer.js";
+import Navbar from "../components/Navbar.js";
 
 
 function Logement({ data }) {
@@ -25,6 +26,7 @@ function Logement({ data }) {
 
     logement && (
       <>
+      <Navbar />
         {<Carrousel pictures={logement.pictures} />}
 
 

@@ -1,6 +1,7 @@
 import propos_image from "../styles/asset/propos_image.png"
 import Footer from "../components/footer";
 import Accor from '../components/Accor';
+import Navbar from "../components/Navbar";
 
 
 
@@ -31,6 +32,10 @@ const Propos = () => {
 
 
   return (
+    <>
+    <Navbar />
+    
+    
     <div className="propos_page">
       <div className="propos_section">
 
@@ -46,6 +51,7 @@ const Propos = () => {
       </div>
       <Footer/>
     </div>
+    </>
     
   );
 };

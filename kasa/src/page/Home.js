@@ -2,6 +2,7 @@ import Card from "../components/Card";
 
 import Footer from "../components/footer";
 import image_home from "../styles/asset/home_image.png"
+import Navbar from "../components/Navbar";
 
 
 
@@ -11,6 +12,8 @@ const Home = () => {
   
 
   return (
+    <>
+    <Navbar />
 
     <div className="home ">
       <div className="home_section">
@@ -23,6 +26,7 @@ const Home = () => {
 
       
     </div>
+    </>
   )
     
     
