@@ -10,9 +10,9 @@ const post = () => {
         <div className='gallery'>
              {
              data.map((data, index) => (
-            <Link to={`/logement/${data.id}`} className="linkCard">    
-            <div className='post' key={data.id}>
-               <img className='post-image' src={data.cover} ></img>
+            <Link to={`/logement/${data.id}`} className="linkCard" key={data.id}>    
+            <div className='post' >
+               <img className='post-image' src={data.cover} alt="logement" ></img>
                <div className='post-titre'>{data.title}</div>
              </div>
              </Link>

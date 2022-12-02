@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import {useParams } from "react-router-dom";
 import Accordion from "../components/Accordion.js";
 import Carrousel from "../components/Courrousel.js";
 import Rating from "../components/Rating.js";
@@ -9,23 +8,15 @@ import Navbar from "../components/Navbar.js";
 
 function Logement({ data }) {
   const { id } = useParams();
-  const navigate = useNavigate();
+  
   const logement = data.find((logement) => logement.id === id);
 
-  useEffect(() => {
-    if (!logement) {
-      navigate("/PageNotFound");
-    }
-  }, [logement]);
-
-  return (
+return (
 
     logement && (
       <>
         <Navbar />
         {<Carrousel pictures={logement.pictures} />}
-
-
         <main className="main_fiche">
           <div className="partie1">
 
@@ -38,8 +29,8 @@ function Logement({ data }) {
                 {logement.location}
               </div>
               <div className="tag">
-                {logement.tags.map((el) => (
-                  <div className="top_tags">{el}</div>
+                {logement.tags.map((el,index) => (
+                  <div className="top_tags" key={index}>{el}</div>
                 ))}
               </div>
 
