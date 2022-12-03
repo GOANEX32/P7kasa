@@ -58,6 +58,15 @@
 .box_right {
     margin-right: 10%;
 }
+.number{
+    display: flex;
+    position: absolute;
+    bottom: 350px;
+    font-size: 30px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
 
 /*partie body presentation*/
 .main_fiche {
@@ -328,6 +337,15 @@ background-color: #F6F6F6;
             height: 250px;
             position: absolute;
         
+        
+        }
+        .number{
+            display: flex;
+            position: absolute;
+            bottom: 390px;
+            font-size: 30px;
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         
         }
     

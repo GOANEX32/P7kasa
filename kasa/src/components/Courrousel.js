@@ -20,8 +20,23 @@ function Carrousel(props) {
       {props.pictures.map((pic, index) => (
         <div className={index === current ? "active" : ""} key={index}>
           {index === current && <img key={index} src={pic} alt="carrousel" className="carrousel_image"></img>}
+          
         </div>
+        
+        
+      
+        
+        
+          
+        
       ))}
+      <div className="number">
+        {current + 1}/{length}
+      </div>
+     
+     
+    
+					
       {length > 1 && (
         <>
         <div className="fleche">
