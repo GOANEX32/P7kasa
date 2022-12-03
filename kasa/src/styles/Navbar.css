@@ -4,7 +4,7 @@
 .navbar-page {
     height: 68px;
     top: 40px;
-    display:flex; 
+    display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
@@ -13,13 +13,13 @@
 }
 
 .nav {
-    
+
     width: 300px;
     height: 100px;
     display: flex;
     margin-right: 10%;
-    
-    
+
+
 }
 
 .nav-aceuil {
@@ -44,15 +44,19 @@
     display: flex;
     align-items: flex-end;
     text-align: right;
-    text-decoration-line: underline;
+    text-decoration: none;
 
     color: #FF6060;
+
+}
+.nav-aceuil:hover {
+    text-decoration-line: underline;
 }
 
 .nav-apropos {
     height: 80px;
     width: 150px;
-    
+
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 500;
@@ -70,48 +74,54 @@
     align-items: flex-end;
     text-align: right;
     color: #FF6060;
+    text-decoration: none;
 }
-.logo{
-    display:  flex;
+.nav-apropos:hover {
+    text-decoration-line: underline;
+}
+
+.logo {
+    display: flex;
     width: 280px;
     height: 70px;
     margin-left: 10%;
-    
+
 }
 
 @media screen and (max-width: 700px) {
     .navbar-page {
-    
-    
+
+
         height: 68px;
-        
+
         top: 70px;
-        display:flex; 
+        display: flex;
         align-items: center;
         justify-content: center;
-        
+
         flex-direction: column;
         margin-top: 12%;
         margin-bottom: 10%;
-        
+
         width: 100%;
-        
-    
+
+
     }
-    .logo{
-        display:  flex;
+
+    .logo {
+        display: flex;
         width: 280px;
         height: 70px;
         margin-left: 10%;
     }
+
     .nav {
-    
+
         width: 300px;
         height: 100px;
         display: flex;
         margin-right: 0%;
-        
-        
+
+
     }
-    }
-  
+}

@@ -38,8 +38,8 @@ return (
       </div>
       <div className="propos_contenu">
         
-        {accordionData.map(({ title, content }) => (
-          <Accor title={title} content={content} />
+        {accordionData.map(({ title, content },index) => (
+          <Accor title={title} content={content} key={index} />
         ))}
       </div>
       <Footer/>

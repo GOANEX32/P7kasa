@@ -4,6 +4,8 @@ function Carrousel(props) {
 
   const [current, setCurrent] = useState(0);
   const length = props.pictures.length;
+  console.log(current);
+  console.log(length)
 
   const handleRight = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);

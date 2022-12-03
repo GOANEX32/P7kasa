@@ -222,12 +222,13 @@ background-color: #F6F6F6;
         
         
         }
+        
         .fleche {
             display: flex;
             justify-content: space-between;
             align-items: center;
             z-index: 2;
-            width: 100%;
+            width: 700px;
             height: 250px;
             position: absolute;
         
@@ -317,6 +318,17 @@ background-color: #F6F6F6;
         }
         .accordion-title{
             width: 100%;
+        }
+        .fleche {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 2;
+            width: 390px;
+            height: 250px;
+            position: absolute;
+        
+        
         }
     
     
