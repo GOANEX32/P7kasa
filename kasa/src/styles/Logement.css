@@ -73,7 +73,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-top: 5%;
     flex-direction: column;
      height: 500px;
 
@@ -140,7 +140,7 @@
     display: flex;
     flex-direction: row;
     
-    align-items: center;
+    
     justify-content: space-around;
     width: 100%;
 }
@@ -154,7 +154,7 @@ border-radius: 10px;
 width: 582px;
 height: 52px;
 font-family: 'Montserrat';
-font-size: 18px;
+font-size: 20px;
 font-weight: 500;
 line-height: 26px;
 letter-spacing: 0em;
