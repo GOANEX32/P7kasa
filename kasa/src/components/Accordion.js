@@ -20,7 +20,7 @@ const Accordion = ({ title, content,titleP }) => {
     </div>
     ):(
       <div className="accordion-itemPropos">
-      <div className="accordion-titlePropos" onClick={() => setIsActive(!isActive)}>
+      <div className="accordion-titlePropos" >
         <div className='margin_left'>{titleP}</div>
         <div onClick={() => setIsActive(!isActive)}>{isActive ? <i class="fa-solid fa-chevron-up margin_right"></i> : <i class="fa-solid fa-chevron-down margin_right"></i>}</div>
       </div>
