@@ -1,6 +1,6 @@
 import propos_image from "../styles/asset/propos_image.png"
 import Footer from "../components/footer";
-import Accor from '../components/Accor';
+import Accordion from "../components/Accordion";
 
 
 
@@ -39,7 +39,7 @@ return (
       <div className="propos_contenu">
         
         {accordionData.map(({ title, content },index) => (
-          <Accor title={title} content={content} key={index} />
+          <Accordion titleP={title} content={content} key={index} />
         ))}
       </div>
       <Footer/>

@@ -1,19 +1,39 @@
 import React, { useState } from 'react';
 
 
-const Accordion = ({ title, content }) => {
+const Accordion = ({ title, content,titleP }) => {
   const [isActive, setIsActive] = useState(false);
   
 
   return (
-    <div className="accordion-item">
-      <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
+    <>
+    {title ? (
+    
+     
+    <div className= "accordion-item"  >
+      <div className="accordion-title">
         <div>{title}</div>
-        <div>{isActive ? <i class="fa-solid fa-chevron-up"></i> : <i class="fa-solid fa-chevron-down"></i>}</div>
+        <div  onClick={() => setIsActive(!isActive)}>{isActive ? <i class="fa-solid fa-chevron-up"></i> : <i class="fa-solid fa-chevron-down"></i>}</div>
       </div>
       {isActive && <div className="accordion-content">{content}</div>}
       
     </div>
+    ):(
+      <div className="accordion-itemPropos">
+      <div className="accordion-titlePropos" onClick={() => setIsActive(!isActive)}>
+        <div className='margin_left'>{titleP}</div>
+        <div onClick={() => setIsActive(!isActive)}>{isActive ? <i class="fa-solid fa-chevron-up margin_right"></i> : <i class="fa-solid fa-chevron-down margin_right"></i>}</div>
+      </div>
+      {isActive && <div className="accordion-contentPropos">{content}</div>}
+    </div>
+
+
+
+
+
+
+  )}
+  </>
   );
 };
 
