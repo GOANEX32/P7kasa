@@ -19,6 +19,7 @@ function App() {
         <Route path="/propos" element={<Propos />} />
         <Route path="/logement/:id" element={<Logement data={data} />} />
         <Route path="*" element={<PageNotFound />} />
+       
       </Routes>
     </BrowserRouter>
   );

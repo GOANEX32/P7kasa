@@ -3,6 +3,7 @@ import Accordion from "../components/Accordion.js";
 import Carrousel from "../components/Courrousel.js";
 import Rating from "../components/Rating.js";
 import Footer from "../components/footer.js";
+import PageNotFound from "./PageNotFound.js";
 
 
 
@@ -13,7 +14,7 @@ function Logement({ data }) {
 
 return (
 
-    logement && (
+    logement ? (
       <>
         
         {<Carrousel pictures={logement.pictures} />}
@@ -60,25 +61,11 @@ return (
 
         </main>
         <Footer />
-
-
-
-
-
-      </>
-
-
-
-
-
-
-
-
-
-
-
-
-    ))
+        </>
+) :(
+  <PageNotFound/>
+)
+)
 }
 
 
