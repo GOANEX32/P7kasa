@@ -2,9 +2,6 @@ import propos_image from "../styles/asset/propos_image.png"
 import Footer from "../components/footer";
 import Accordion from "../components/Accordion";
 
-
-
-
 const Propos = () => {
   
   const accordionData = [
@@ -30,14 +27,11 @@ const Propos = () => {
   
 return (
     <>
-    
     <div className="propos_page">
       <div className="propos_section">
-
         <img src={propos_image} className="propos_image" alt="principale page" />
       </div>
       <div className="propos_contenu">
-        
         {accordionData.map(({ title, content },index) => (
           <Accordion titleP={title} content={content} key={index} />
         ))}

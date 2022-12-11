@@ -29,4 +29,81 @@
     font-size: 18px;
     line-height: 142.6%;
     color: #FF6060;
+    margin-top: 200px;
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .main_notFound {
+        text-align: center;
+    }
+    
+    .error {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 220px;
+        line-height: 142.6%;
+        color: #FF6060;
+    
+    }
+    
+    .message_error {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 142.6%;
+        color: #FF6060;
+       max-width: 100%;
+    
+    }
+    
+    .retour {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 142.6%;
+        color: #FF6060;
+        margin-top: 200px;
+        display: flex;
+        
+        justify-content: center;
+    }
+    
+
+}
+
+@media screen and (max-width: 700px) {
+    .error {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 180px;
+        line-height: 142.6%;
+        color: #FF6060;
+    
+    }
+    .message_error {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 142.6%;
+        color: #FF6060;
+       max-width: 100%;
+    
+    }
+    .main_notFound{
+        margin-top: 200px;
+    }
+
+
+
 }
