@@ -5,8 +5,8 @@
   margin-top: 10%;
   height: 150px;
   background-color: black;
-  width: 90%;
-  margin-left: 5%;
+  width: 100%;
+  
   flex-direction: column;
 }
 
