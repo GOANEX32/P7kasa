@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/P7kasa/static/css/main.c935e566.css",
+    "main.js": "/P7kasa/static/js/main.0a77c418.js",
+    "static/media/propos_image.png": "/P7kasa/static/media/propos_image.fce6fc3e9ed27433e9b0.png",
+    "static/media/home_image.png": "/P7kasa/static/media/home_image.efc1935eb81fc5e585f9.png",
+    "index.html": "/P7kasa/index.html",
+    "main.c935e566.css.map": "/P7kasa/static/css/main.c935e566.css.map",
+    "main.0a77c418.js.map": "/P7kasa/static/js/main.0a77c418.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c935e566.css",
+    "static/js/main.0a77c418.js"
+  ]
+}
